@@ -19,7 +19,7 @@
 
     $opc = Read-Host "Deseja digitar outros números? [S/N]"
 
-    if($opc -eq 's') {
+    if($opc.ToUpper() -eq 'S') {
         Clear-Host
 
         tabuada
